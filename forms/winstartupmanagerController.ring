@@ -48,7 +48,7 @@ Func retAddProg retSubWinObj
 		# Add to Registry
 		EnableProgram(len(ProgramItems))
 		# Add to table 
-		AddItemsToTable([newItem])
+		This.AddItemsToTable([newItem])
 	}
 
 Func EditProgAction
